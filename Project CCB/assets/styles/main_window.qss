@@ -1,0 +1,49 @@
+/* --- General button style --- */
+QPushButton {
+    background-color: #2E7D32;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 250px;
+    border: none;
+}
+QPushButton:hover {
+    background-color: #388E3C;
+}
+QPushButton:pressed {
+    background-color: #1B5E20;
+}
+
+/* --- Secondary buttons (like Add/Delete Music) --- */
+QPushButton#addMusicButton,
+QPushButton#deleteMusicButton {
+    background-color: #424242;
+    color: #E0E0E0;
+    font-size: 14px;
+    min-width: 120px;
+    padding: 8px;
+    border-radius: 8px;
+}
+QPushButton#addMusicButton:hover,
+QPushButton#deleteMusicButton:hover {
+    background-color: #616161;
+}
+QPushButton#addMusicButton:pressed,
+QPushButton#deleteMusicButton:pressed {
+    background-color: #757575;
+}
+
+/* --- ComboBox --- */
+QComboBox {
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    min-width: 200px;
+}
+QComboBox QAbstractItemView {
+    background-color: #2E2E2E;
+    selection-background-color: #388E3C;
+    selection-color: white;
+}

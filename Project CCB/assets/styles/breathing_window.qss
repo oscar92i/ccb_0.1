@@ -1,0 +1,96 @@
+/* General background for the breathing page */
+QWidget {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Circle background label if needed */
+QLabel {
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* --- Breathing control buttons --- */
+QPushButton#breathControl {
+    background-color: #2E7D32;  /* Deep green */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+QPushButton#breathControl:hover {
+    background-color: #43A047;
+}
+
+QPushButton#breathControl:pressed {
+    background-color: #1B5E20;
+}
+
+/* --- Back to menu button --- */
+QPushButton#backButton {
+    background-color: #444;
+    color: #ddd;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+QPushButton#backButton:hover {
+    background-color: #666;
+}
+
+QPushButton#backButton:pressed {
+    background-color: #222;
+}
+
+/* --- Music selector combo box --- */
+QComboBox {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 4px 10px;
+    min-width: 150px;
+}
+
+QComboBox:hover {
+    border: 1px solid #777;
+}
+
+QComboBox::drop-down {
+    border-left: 1px solid #555;
+    width: 25px;
+    background-color: #2C2C2C;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1E1E1E;
+    selection-background-color: #43A047;
+}
+
+/* --- Mute button --- */
+QPushButton#muteButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    padding: 4px 6px;   
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    font-size: 16px;
+}
+
+QPushButton#muteButton:hover {
+    background-color: #555;
+}
+
+
+QPushButton#muteButton:pressed {
+    background-color: #1E1E1E;
+}
